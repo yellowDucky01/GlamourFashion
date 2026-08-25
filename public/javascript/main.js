@@ -1,8 +1,8 @@
 const images = [
-    "../image/showcase-image-1.jpg",
-    "../image/showcase-image-2.png",
-    "../image/showcase-image-3.png",
-    "../image/showcase-image-4.png",
+    "../assets/image/showcase-image-1.jpg",
+    "../assets/image/showcase-image-2.png",
+    "../assets/image/showcase-image-3.png",
+    "../assets/image/showcase-image-4.png",
 ];
 
 let currentIndex = 0;
