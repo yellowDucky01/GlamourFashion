@@ -56,10 +56,6 @@ header {
     color: #808080;
 }
 
-.top-navbar li a:hover {
-    color: var(--brand-red);
-}
-
 .top-left-navbar-list ul li a {
     margin-right: 20px;
 }
@@ -82,7 +78,6 @@ header {
 /* Burger Menu (Hidden on Desktop) */
 .burger-menu {
     display: none;
-    cursor: pointer;
 }
 
 .burger-button button img {
@@ -104,10 +99,6 @@ header {
 
 #brand p span {
     font-weight: bold;
-}
-
-#brand .highlight {
-    color: var(--brand-red);
 }
 
 #brand h1 a {
@@ -133,12 +124,9 @@ header {
     color: #000000;
 }
 
-.bottom-middle-navbar ul li a:hover {
-    color: var(--brand-red);
-}
-
 /* Bottom Right Navbar */
 .bottom-right-navbar ul {
+    margin-top: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -149,14 +137,14 @@ header {
 }
 
 .bottom-right-navbar ul a {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: #000000;
     text-decoration: none;
     margin-left: 15px;
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 1095px) {
     main,
     .navbar {
         width: 90%;
@@ -164,6 +152,7 @@ header {
 
     header {
         height: 60px;
+        margin-bottom: 
     }
 
     .top-right-navbar-list,
@@ -172,14 +161,24 @@ header {
         display: none;
     }
 
+    .bottom-right-navbar {
+        font-size: 1.3em;
+    }
+
     .top-navbar {
         border: none;
-        padding-bottom: 0;
+        padding-bottom: 5px;
     }
 
     .burger-menu {
         display: flex;
         align-items: center;
+    }
+
+    .burger-menu button {
+        background: none;
+        border: none;
+        cursor: pointer;
     }
 
     #brand {
@@ -193,8 +192,12 @@ header {
         align-items: center;
     }
 
-    .burger-menu ul li {
+    .burger-menu-ul {
         display: none;
+    }
+
+    .burger-menu-ul.active {
+        display: block;
     }
 }
 /*Main content*/
@@ -254,6 +257,7 @@ header {
 }
 
 .showcase-header h1, h2 {
+    text-align: center;
     letter-spacing: 10px;
     color: white;
     font-weight: 400;
