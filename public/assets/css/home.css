@@ -1,4 +1,6 @@
-/* Global Reset */
+/* ============
+ * Global Reset
+ * ============ */
 * {
     font-family: "Jost", sans-serif;
     margin: 0;
@@ -6,14 +8,18 @@
     box-sizing: border-box;
 }
 
-/* Main & Navbar Container */
+/* =======================
+ * Main & Navbar Container
+ * ======================= */
 main,
 .navbar {
     width: 70%;
     margin: auto;
 }
 
-/* Header Styling */
+/* ==============
+ * Header Styling
+ * ============== */
 header {
     top: 0;
     background-color: #ffffff;
@@ -32,7 +38,9 @@ header {
     text-decoration: none;
 }
 
-/* Top Navbar Styling */
+/* ==================
+ * Top Navbar Styling
+ * ================== */
 .top-navbar {
     display: flex;
     justify-content: space-between;
@@ -65,7 +73,9 @@ header {
     padding-right: 20px;
 }
 
-/* Icons */
+/* =====
+ * Icons
+ * ===== */
 .icons li img {
     width: 15px;
     transition: transform 0.3s ease-in-out;
@@ -75,7 +85,9 @@ header {
     transform: scale(1.3);
 }
 
-/* Burger Menu (Hidden on Desktop) */
+/* ===============================
+ * Burger Menu (Hidden on Desktop) 
+ * =============================== */
 .burger-menu {
     display: none;
 }
@@ -84,7 +96,9 @@ header {
     width: 30px;
 }
 
-/* Bottom Navbar */
+/* =============
+ * Bottom Navbar
+ * ============= */
 .bottom-navbar {
     position: sticky;
     padding-bottom: 1.5em;
@@ -106,7 +120,9 @@ header {
     text-decoration: none;
 }
 
-/* Bottom Middle Navbar */
+/* ====================
+ * Bottom Middle Navbar
+ * ==================== */
 .bottom-middle-navbar ul {
     display: flex;
     justify-content: flex-start;
@@ -124,7 +140,10 @@ header {
     color: #000000;
 }
 
-/* Bottom Right Navbar */
+/* ===================
+ * Bottom Right Navbar
+ * =================== */
+
 .bottom-right-navbar ul {
     margin-top: 10px;
     display: flex;
@@ -143,7 +162,9 @@ header {
     margin-left: 15px;
 }
 
-/* Mobile Responsiveness */
+/* =====================
+ * Mobile Responsiveness
+ * ===================== */
 @media (max-width: 1095px) {
     main,
     .navbar {
@@ -200,9 +221,13 @@ header {
         display: block;
     }
 }
-/*Main content*/
+/* ============
+ * Main content
+ * ============ */
 
-/* Promo */
+/* =====
+ * Promo
+ * ===== */
 .promo {
     background-color: #000000;
     text-align: center;
@@ -226,13 +251,17 @@ header {
     display: inline-block;
 }
 
-/* Content */
+/* =======
+ * Content
+ * ======= */
 .content {
     min-height: 500vh;
 }
 
 
-/* Showcase*/
+/* ========
+ * Showcase
+ * ======== */
 .showcase {
     position: relative;
 }
@@ -268,7 +297,10 @@ header {
     letter-spacing: 5px;
 }
 
-/* Showcase Buttons*/
+/* ================
+ * Showcase Buttons
+ * ================ */
+
 .showcase-btn {
     position: absolute;
     top: 70%;
@@ -313,7 +345,9 @@ header {
     font-size: 28px;
 }
 
-/* Showcase cards */
+/* ==============
+ * Showcase cards
+ * ============== */
 
 .showcase-cards {
     display: flex;
@@ -323,6 +357,10 @@ header {
     background: #1C1C1C;
 }
 
+
+/* ============
+ * Card Content
+ * ============ */
 .card {
     display: flex;
     align-items: center;
